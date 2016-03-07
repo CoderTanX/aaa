@@ -1,0 +1,71 @@
+@charset "gb2312";
+/* CSS Document */
+*{ margin:0; padding:0}
+body{ margin:0;	background:#000000;}
+img{ border:0}
+ul,li,a{ list-style:none; text-decoration:none;}
+.clear{ clear:both}
+
+/*整体宽度*/
+.wrapper{background:#FFF; width:1024px; margin:0 auto; height:auto;}
+
+/*Top*/
+#Top{width:1024px; margin:0 auto; height:120px; position:relative;}
+.logo{ display:block; width:197px; height:69px; float:left; margin-top:20px; margin-left:44px;}
+.banben{ position:absolute; right:0; top:10px; padding-right:57px;}
+.banben a{ display:block; float:left; text-align:right; line-height:15px; font-size:11px; font-family:"微软雅黑","黑体"; color:#cccccc;}
+.banben a:hover{ font-size:11px; color:#ffa800; text-decoration:none;}
+.ch{ background:url(../images/chinese.jpg) no-repeat 8px; display:block; width:75px;}
+.en{ background:url(../images/english.jpg) no-repeat 8px; display:block; width:92px;}
+
+
+/*Nav*/
+#Nav { background:url(../images/navbg.jpg) repeat-x; position:absolute; right:0; top:32px; height:69px; width:504px;}
+#Navcenter {height:45px; line-height:45px; width:440px; margin-top:9px; float:left;}
+#Navcenter ul {list-style: none; margin:0 auto;}
+#Navcenter ul li { background:url(../images/navline.jpg) left no-repeat #595758; width:88px; float:left;}
+#Navcenter ul li a {font-family:"微软雅黑","黑体"; text-align:center; font-size:14px; color:#FFF; display:block; text-decoration:none;}
+#Navcenter ul li a:hover {color:#ffa800; text-decoration:none;}
+#navhot{ background:url(../images/navhotbg.jpg) no-repeat;}
+#Navleft {background:url(../images/navleft.jpg) no-repeat; height:69px; width:23px; float:left;}
+#Navright {background:url(../images/navright.jpg) no-repeat; height:69px; width:41px; float:left;}
+
+/*焦点图*/
+#bannerk{ width:1024px; height:304px; margin:0 auto;}
+.slider {width:1024px; height:304px; position:relative; overflow:hidden;}
+.sliderContent {float:left; width:1024px; height:304px; clear:both; position:relative; overflow:hidden;}
+.sliderArrows a {display:block; text-indent:-9999px; outline:none; z-index:50; background-repeat:no-repeat; width:33px; height:66px; position:absolute; top:120px;}
+.slidePrev {left:20px; background:url("../images/anrrow1.png") no-repeat;}
+.slideNext {background-image:url("../images/anrrow2.png"); right:20px;}
+.sliderArrows a:hover {background-position:left -66px;}
+.sliderContent .item {position:absolute; width:1024px; height:304px; z-index:5; text-align:center; background-repeat:no-repeat; background-position:center top; margin:0 auto;}
+.slider a {hide-focus: expression(this.hideFocus=true);/* for ie 5+ */ outline:none;/* for firefox 1.5 + */}
+.bbottom{ width:1024px; height:13px; margin:0 auto; background:#231816;}
+
+/*精英团队*/
+#teammain{ width:1024px; height:auto; margin:0 auto; margin-bottom:60px;}
+
+.fenlei{ width:155px; margin-left:63px; _margin-left:31px; margin-top:30px; float:left;}
+.fenlei ul {padding:0px 0px;}
+.fenlei ul li{cursor:pointer; font-size:14px; font-family:"微软雅黑","黑体"; color:#000000; margin-bottom:8px; font-weight:bold;}
+.fenlei ul li a{text-decoration:none; color:#000000; display:block; width:95px; height:23px; padding-left:7px; }	
+.fenlei ul li a:hover{background:#231816;color:#FFFFFF; text-decoration:none;}
+#flhover{background:#231816;color:#FFFFFF;}
+
+/*精英团队照片部分*/
+.mappic{ width:325px; margin-top:30px; float:left; margin-left:63px;}
+/*精英团队内容部分*/
+.xwcontent{ width:550px; margin-top:30px; float:left; margin-left:200px; _margin-left:100px;}
+.xwcontent H2{ font-size:14px; font-family:"微软雅黑","黑体"; color:#595757; font-weight:bold; margin-bottom:5px; width:535px;}
+.xwcontent p{ font-size:12px; font-family:"微软雅黑","黑体"; color:#727171; line-height:18px; width:535px;}
+#contentscr{width:378px; height:190px;}
+
+/*分页*/
+.fenye{ padding-left:30px; font-size:11px; color:#999a9a; font-family:"微软雅黑","黑体"; margin-top:20px;}
+.fenye a:link,.fenye a:visited{color:#999a9a;}
+.fenye a:hover{ color:#ffa800; text-decoration:underline;}
+
+/*底部*/
+.foot{ background:url(../images/footbg.jpg) repeat-x #000; height:63px; width:1024px; margin:0 auto; padding-top:23px; position:relative;}
+.foot p{ margin-left:38px; line-height:18px; color:#acaaab; font-family:"微软雅黑","黑体"; font-size:10px; }
+.foot img{ width:104px; height:37px; float:right; margin-right:46px; margin-top:0px;}
